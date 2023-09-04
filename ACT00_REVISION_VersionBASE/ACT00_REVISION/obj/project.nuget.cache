@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DmOSEafy5Yj+7NB+ln4Q7lIcdMqOoBL4bSwsthe5Nnk5inBRd+5x+L7QfsY8cK16nBtBe3s8R4rE0i201a1HmA==",
+  "dgSpecHash": "hd37CRJ++LIbUUhLnTSPAqKNrHlz2ZCavCp/haZPgnC3tOxtSRBgcKndkYfcd785xN5b5BAfeRU97ltUXuTCYg==",
   "success": true,
-  "projectFilePath": "H:\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\210469\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\210469\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\210469\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\210469\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\roman\\OneDrive\\Documents\\Progra\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
