@@ -7,12 +7,12 @@ namespace ACT00_REVISION
     class MethodesDuProjet
     {
         // Procédure qui permet de préparer un string 'infos' montrant l'état du triangle selon les situations 'methode' et un booléen 'ok'
-        public void Affiche(bool ok, string methode)//nommée Affiche
+        public void Affiche(bool ok, string methode, out string infos)//nommée Affiche
         {
             string verbe;
-            string infos = "";
+            infos = "";
             // mémorisation du verbe 'est' ou 'n'est pas' pour former la bonne phrase en fonction d'un booléen passé en paramètre
-            if (!ok)
+            if (ok == true)
             {
                 verbe = " est ";
             }
@@ -40,7 +40,7 @@ namespace ACT00_REVISION
             }
         }
         // fonction qui calcule la longueur de l'hypothénuse à partir de 2 cotés de type double
-        public double Hypo( x,  y)// ... nommée Hypo
+        public double Hypo(double x,double y)// ... nommée Hypo
         {
             double z = Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
             return z;
@@ -54,6 +54,7 @@ namespace ACT00_REVISION
             {
                 ok = true;
             }
+            return ok;
             //.... complétez avec ce qui manque logiquement
         }
         // procédure qui permet de classer les cotés : on choisi de mettre dans 'a' le plus grand des cotés
@@ -76,16 +77,17 @@ namespace ACT00_REVISION
             }
         }
         // fonction booléenne qui détermine si on a un triangle ou pas en se basant sur les longueurs des côtés
-        public bool Triangle(ref double a, ref double b, ref double c)// nommée ...Triangle
+        public bool Triangle(ref double a, ref double b, ref double c, ref bool ok)// nommée Triangle
         {
-            bool ok = false;
+            ok = false;
 
-            outils.OrdonneCotes(ref a, ref b, ref c);
+            OrdonneCotes(ref a, ref b, ref c);
 
             if (a <= (b + c))
             {
                 ok = true;
             }
+            return ok;
             // ... Compléter ce qui manque...
         }
         // procédure qui détermine si un triangle est isocèle ou non sur base des longueurs de côtés
