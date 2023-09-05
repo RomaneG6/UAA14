@@ -9,7 +9,6 @@ namespace ACT00_REVISION
             // déclaration des variables : c1, c2, c3, a, b, c et ok
 
             string rep;
-            string methode = "";
             string infos = "";
             double c1 = 0;
             double c2 = 0;
@@ -20,7 +19,6 @@ namespace ACT00_REVISION
             bool ok = false;
             // instanciation de la structure
             MethodesDuProjet outils = new MethodesDuProjet();
-            // ...... COMPLETER
 
             Console.WriteLine("Testez les polygones !");
             //On recommence tant que désiré
@@ -31,60 +29,54 @@ namespace ACT00_REVISION
                 // c2 = deuxième coté
                 // c3 = troisième coté
 
-                // ordonner les côtés => APPEL ORDONNECOTES
-                lireDouble(a);
-                lireDouble(b);
-                lireDouble(c);
-                outils.Triangle(ref a, ref b, ref c, ref ok);
+                // ordonner les côtés => APPEL (ORDONNECOTES)triangle
+                c1 = lireDouble(1);
+                c2 = lireDouble(2);
+                c3 = lireDouble(3);
                 // c1 = le coté le plus grand et les deux autres cotés sont c2 et c3
                 // série de test (voir consignes)
-                if (ok == true)// on a un triangle
+                if (outils.Triangle(ref a, ref b, ref c) == true)// on a un triangle
                 {
                     // préparation et affichage du résultat du test 'triangle' avec la procédure 'Affiche'
-                    // ...
-                    // ...
-                    outils.Affiche(ok, methode, out infos);
+                    ok = true;
+                    outils.Affiche(ref ok, "triangle", out infos);
                     Console.WriteLine(infos);
-                    outils.Equi(a, b, c);
+                    
 
                     // vérification équilatéral
-                    if (ok == true)// on a un triangle équilatéral...
+                    if (outils.Equi(a, b, c) == true)// on a un triangle équilatéral
                     {
                         // préparation et affichage du résultat du test 'equilateral' avec la procédure 'Affiche'
-                        // ...
-                        // ...
-                        outils.Affiche(ok, methode, out infos);
+                        ok = true;
+                        outils.Affiche(ref ok, "equilateral", out infos);
                         Console.WriteLine(infos);
                         outils.TriangleRectangle(a, b, c);
                     }
                     else
                     {
-                        outils.TriangleRectangle(a, b, c);
                         // vérification triangle rectangle
-                        if (ok == true)// on a un triangle rectangle
+                        if (outils.TriangleRectangle(a, b, c) == true)// on a un triangle rectangle
                         {
                             // préparation et affichage du résultat positif du test 'rectangle' avec la procédure 'Affiche'
-                            // ...
-                            // ...
-                            outils.Affiche(ok, methode, out infos);
+                            ok = true;
+                            outils.Affiche(ref ok, "rectangle", out infos);
                             Console.WriteLine(infos);
                         }
                         else
                         {
                             // préparation et affichage du résultat négatif du test 'rectangle' avec la procédure 'Affiche'
-                            // ...
-                            // ...
-                            outils.Affiche(ok, methode, out infos);
+                            ok = true;
+                            outils.Affiche(ref ok, "rectangle", out infos);
                             Console.WriteLine(infos);
                         }
                         // vérification du cas isocèle et affichage dans le cas positif
                         //...
                         //...
                         //... A vous de voir en combien de lignes...
-                        outils.Isocele(ref a, ref b, ref c);
+                        outils.Isocele(ref a, ref b, ref c, out ok);
                         if (ok == true)
                         {
-                            outils.Affiche(ok, methode, out infos);
+                            outils.Affiche(ref ok, "isocele", out infos);
                             Console.WriteLine(infos);
                         }
                     }
@@ -94,7 +86,8 @@ namespace ACT00_REVISION
                     // préparation et affichage du résultat négataif du test 'triangle' avec la procédure 'Affiche'
                     // ...
                     // ...
-                    outils.Affiche(ok, methode, out infos);
+                    ok = true;
+                    outils.Affiche(ref ok, "triangle", out infos);
                     Console.WriteLine(infos);
                 }
                 // reprise ?

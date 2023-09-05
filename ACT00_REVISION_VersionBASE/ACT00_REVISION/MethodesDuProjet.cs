@@ -7,18 +7,18 @@ namespace ACT00_REVISION
     class MethodesDuProjet
     {
         // Procédure qui permet de préparer un string 'infos' montrant l'état du triangle selon les situations 'methode' et un booléen 'ok'
-        public void Affiche(bool ok, string methode, out string infos)//nommée Affiche
+        public void Affiche(ref bool ok, string methode, out string infos)//nommée Affiche
         {
             string verbe;
             infos = "";
             // mémorisation du verbe 'est' ou 'n'est pas' pour former la bonne phrase en fonction d'un booléen passé en paramètre
             if (ok == true)
             {
-                verbe = " est ";
+                verbe = "est ";
             }
             else
             {
-                verbe = " n'est pas ";
+                verbe = "n'est pas ";
             }
             // selon la méthode, on prépare la bonne phrase.
             switch (methode)
@@ -59,7 +59,7 @@ namespace ACT00_REVISION
         }
         // procédure qui permet de classer les cotés : on choisi de mettre dans 'a' le plus grand des cotés
         // les 2 côtés sont modifiés par la procédure
-        public void OrdoneCotes(ref double b,ref  double a, ref double c)// nommée ... OrdonneCotes
+        public void OrdonneCotes(ref double b,ref  double a, ref double c)// nommée ... OrdonneCotes
         {
             double temp;
 
@@ -77,9 +77,9 @@ namespace ACT00_REVISION
             }
         }
         // fonction booléenne qui détermine si on a un triangle ou pas en se basant sur les longueurs des côtés
-        public bool Triangle(ref double a, ref double b, ref double c, ref bool ok)// nommée Triangle
+        public bool Triangle(ref double a, ref double b, ref double c)// nommée Triangle
         {
-            ok = false;
+            bool ok = false;
 
             OrdonneCotes(ref a, ref b, ref c);
 
@@ -91,9 +91,9 @@ namespace ACT00_REVISION
             // ... Compléter ce qui manque...
         }
         // procédure qui détermine si un triangle est isocèle ou non sur base des longueurs de côtés
-        public void Isocele(ref double a, ref double b, ref double c)// nommée Isocele
+        public void Isocele(ref double a, ref double b, ref double c, out bool ok)// nommée Isocele
         {
-            bool ok = false;
+            ok = false;
             if ((a == b) ^ (a == c) ^ (b == c))   // '^' est le 'ou' exclusif (xor)
             {
                 ok = true;
