@@ -6,9 +6,14 @@ namespace POOExChien
 
         private static void Main(string[] args)
         {
-            Chien LeChien = new Chien();
+            Console.WriteLine("première méthode");
+            Chien chien1 = new Chien("Napoléon", "Labrador", 6);
+            Chien chien2 = new Chien("Oka", "Berger Australien", 1);
+            Chien chien3 = new Chien("Xena", "Bulldog", 3);
 
-            LeChien.Chien(nom, race, age);
+            Console.WriteLine(chien1.AfficherCarac());
+            Console.WriteLine(chien2.AfficherCarac());
+            Console.WriteLine(chien3.AfficherCarac());
         }
     }
 }
