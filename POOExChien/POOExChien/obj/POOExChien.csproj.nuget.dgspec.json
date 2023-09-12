@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roman\\OneDrive\\Documents\\Progra\\UAA14\\POOExChien\\POOExChien\\POOExChien.csproj": {}
+    "H:\\UAA14\\POOExChien\\POOExChien\\POOExChien.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roman\\OneDrive\\Documents\\Progra\\UAA14\\POOExChien\\POOExChien\\POOExChien.csproj": {
+    "H:\\UAA14\\POOExChien\\POOExChien\\POOExChien.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roman\\OneDrive\\Documents\\Progra\\UAA14\\POOExChien\\POOExChien\\POOExChien.csproj",
+        "projectUniqueName": "H:\\UAA14\\POOExChien\\POOExChien\\POOExChien.csproj",
         "projectName": "POOExChien",
-        "projectPath": "C:\\Users\\roman\\OneDrive\\Documents\\Progra\\UAA14\\POOExChien\\POOExChien\\POOExChien.csproj",
-        "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roman\\OneDrive\\Documents\\Progra\\UAA14\\POOExChien\\POOExChien\\obj\\",
+        "projectPath": "H:\\UAA14\\POOExChien\\POOExChien\\POOExChien.csproj",
+        "packagesPath": "C:\\Users\\210469\\.nuget\\packages\\",
+        "outputPath": "H:\\UAA14\\POOExChien\\POOExChien\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\210469\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
