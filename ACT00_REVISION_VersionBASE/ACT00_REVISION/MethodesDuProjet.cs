@@ -59,7 +59,7 @@ namespace ACT00_REVISION
         }
         // procédure qui permet de classer les cotés : on choisi de mettre dans 'a' le plus grand des cotés
         // les 2 côtés sont modifiés par la procédure
-        public void OrdonneCotes(ref double b,ref  double a, ref double c)// nommée ... OrdonneCotes
+        public void OrdonneCotes(ref double a,ref  double b, ref double c)// nommée ... OrdonneCotes
         {
             double temp;
 
