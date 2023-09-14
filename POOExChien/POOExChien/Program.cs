@@ -20,8 +20,13 @@ namespace POOExChien
             chien1.AfficheCarac();
             chien2.AfficheCarac();
             chien3.AfficheCarac();
+            Console.ReadLine();
 
             Chien[] MesChiens = new Chien[] { chien1, chien2, chien3 };
+
+
+
+
         }
     }
 }
