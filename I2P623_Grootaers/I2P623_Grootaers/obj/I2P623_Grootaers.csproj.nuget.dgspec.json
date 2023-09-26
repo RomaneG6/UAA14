@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\I2P623_Grootaers\\I2P623_Grootaers\\I2P623_Grootaers.csproj": {}
+    "H:\\UAA14\\I2P623_Grootaers\\I2P623_Grootaers\\I2P623_Grootaers.csproj": {}
   },
   "projects": {
-    "H:\\I2P623_Grootaers\\I2P623_Grootaers\\I2P623_Grootaers.csproj": {
+    "H:\\UAA14\\I2P623_Grootaers\\I2P623_Grootaers\\I2P623_Grootaers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\I2P623_Grootaers\\I2P623_Grootaers\\I2P623_Grootaers.csproj",
+        "projectUniqueName": "H:\\UAA14\\I2P623_Grootaers\\I2P623_Grootaers\\I2P623_Grootaers.csproj",
         "projectName": "I2P623_Grootaers",
-        "projectPath": "H:\\I2P623_Grootaers\\I2P623_Grootaers\\I2P623_Grootaers.csproj",
+        "projectPath": "H:\\UAA14\\I2P623_Grootaers\\I2P623_Grootaers\\I2P623_Grootaers.csproj",
         "packagesPath": "C:\\Users\\210469\\.nuget\\packages\\",
-        "outputPath": "H:\\I2P623_Grootaers\\I2P623_Grootaers\\obj\\",
+        "outputPath": "H:\\UAA14\\I2P623_Grootaers\\I2P623_Grootaers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\210469\\AppData\\Roaming\\NuGet\\NuGet.Config",
