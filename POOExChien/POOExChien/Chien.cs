@@ -27,6 +27,11 @@ namespace POOExChien
             _sterile = sterile;
         }
 
+        public int Nom
+        {
+            get { return _nom; }
+        }
+
         public uint age
         {
             get { return _age; }
@@ -50,7 +55,7 @@ namespace POOExChien
         public bool sterile
         {
             get { return _sterile; }
-            set { _sterile = value; }
+            set { _sterile = !value; }
         }
         public string AfficheCarac()
         {

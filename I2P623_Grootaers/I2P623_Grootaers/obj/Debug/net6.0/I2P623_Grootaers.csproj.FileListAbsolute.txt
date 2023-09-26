@@ -1,0 +1,15 @@
+H:\I2P623_Grootaers\I2P623_Grootaers\bin\Debug\net6.0\I2P623_Grootaers.exe
+H:\I2P623_Grootaers\I2P623_Grootaers\bin\Debug\net6.0\I2P623_Grootaers.deps.json
+H:\I2P623_Grootaers\I2P623_Grootaers\bin\Debug\net6.0\I2P623_Grootaers.runtimeconfig.json
+H:\I2P623_Grootaers\I2P623_Grootaers\bin\Debug\net6.0\I2P623_Grootaers.dll
+H:\I2P623_Grootaers\I2P623_Grootaers\bin\Debug\net6.0\I2P623_Grootaers.pdb
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\I2P623_Grootaers.csproj.AssemblyReference.cache
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\I2P623_Grootaers.GeneratedMSBuildEditorConfig.editorconfig
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\I2P623_Grootaers.AssemblyInfoInputs.cache
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\I2P623_Grootaers.AssemblyInfo.cs
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\I2P623_Grootaers.csproj.CoreCompileInputs.cache
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\I2P623_Grootaers.dll
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\refint\I2P623_Grootaers.dll
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\I2P623_Grootaers.pdb
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\I2P623_Grootaers.genruntimeconfig.cache
+H:\I2P623_Grootaers\I2P623_Grootaers\obj\Debug\net6.0\ref\I2P623_Grootaers.dll
