@@ -1,0 +1,15 @@
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\bin\Debug\net6.0\Act3_6TTIRG.exe
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\bin\Debug\net6.0\Act3_6TTIRG.deps.json
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\bin\Debug\net6.0\Act3_6TTIRG.runtimeconfig.json
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\bin\Debug\net6.0\Act3_6TTIRG.dll
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\bin\Debug\net6.0\Act3_6TTIRG.pdb
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\Act3_6TTIRG.csproj.AssemblyReference.cache
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\Act3_6TTIRG.GeneratedMSBuildEditorConfig.editorconfig
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\Act3_6TTIRG.AssemblyInfoInputs.cache
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\Act3_6TTIRG.AssemblyInfo.cs
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\Act3_6TTIRG.csproj.CoreCompileInputs.cache
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\Act3_6TTIRG.dll
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\refint\Act3_6TTIRG.dll
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\Act3_6TTIRG.pdb
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\Act3_6TTIRG.genruntimeconfig.cache
+H:\UAA14\Act3_6TTIRG\Act3_6TTIRG\obj\Debug\net6.0\ref\Act3_6TTIRG.dll
