@@ -9,31 +9,32 @@ namespace CeUAA14Partie2_dec23_Grootaers
 {
     internal class PaintBallGun
     {
-        private int _nbrBallesJ;
-        private int _nbrBallesChar;
-        private string _armeVide;
+        private int _nbrBallesJ;//nbrBallesJ = nombre de balles dont dispose le joueur
+        private int _nbrBallesChar;//nbrBallesChar = nombre de balles dont dispose le chargeur
+        private string _armeVide;//armeVide = pour savoir si l'arme est vide ou chargée
+
         public PaintBallGun(int nbrBallesJ, int nbrBallesChar, string armeVide)
         {
             _nbrBallesJ = nbrBallesJ;
             _nbrBallesChar = nbrBallesChar;
             _armeVide = armeVide;
         }
-        public int nbrBallesJ
+        public int nbrBallesJ//sert à accéder à la donnée et à la modifier car elle est privée
         {
             get { return _nbrBallesJ; }
             set { _nbrBallesJ = value; }
         }
-        public int nbrBallesChar
+        public int nbrBallesChar//sert à accéder à la donnée et à la modifier car elle est privée
         {
             get { return _nbrBallesChar; }
             set { _nbrBallesChar = value; }
         }
-        public string armeVide
+        public string armeVide//sert à accéder à la donnée et à la modifier car elle est privée
         {
             get { return _armeVide; }
             set { _armeVide = value; }
         }
-        public string AfficherInfo()
+        public string AfficherInfo()// affiche les info du gun du joueur
         {
             string chaine = "\n -> Vous disposez de " + _nbrBallesJ + " balles dans votre poche,\n" +
                 "votre chargeur contient " + _nbrBallesChar + " balles,\n" +
@@ -41,7 +42,7 @@ namespace CeUAA14Partie2_dec23_Grootaers
 
             return chaine;
         }
-        public string Tirer()
+        public string Tirer()//indique que le joueur tire si l'arme n'est pas vide mais si elle est vide, indique qu'il ne peut pas tiré
         {
             string chaine = "";
             if (_nbrBallesChar == 0)
@@ -57,11 +58,7 @@ namespace CeUAA14Partie2_dec23_Grootaers
             }
             return chaine;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public string Recharger()
+        public string Recharger()//indique que le joueur recharge son arme si elle poosède moins de 16 balles mais aussi le nombre de balles qu'il met dans son arme
         {
             string chaine = "";
             if (_nbrBallesChar < 16 )
@@ -81,7 +78,7 @@ namespace CeUAA14Partie2_dec23_Grootaers
             }
             return chaine;
         }
-        public string ReprendreB()
+        public string ReprendreB()//indique que le joueur reprend des munition mais aussi le nombre de balles qui prends quand il le souhaite
         {
             _nbrBallesJ = _nbrBallesJ + 30;
             string chaine = " - Vous venez de reprendre des munitions";
