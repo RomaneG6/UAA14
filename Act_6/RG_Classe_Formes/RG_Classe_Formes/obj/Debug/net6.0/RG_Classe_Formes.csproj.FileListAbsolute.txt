@@ -1,0 +1,14 @@
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\bin\Debug\net6.0\RG_Classe_Formes.exe
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\bin\Debug\net6.0\RG_Classe_Formes.deps.json
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\bin\Debug\net6.0\RG_Classe_Formes.runtimeconfig.json
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\bin\Debug\net6.0\RG_Classe_Formes.dll
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\bin\Debug\net6.0\RG_Classe_Formes.pdb
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\RG_Classe_Formes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\RG_Classe_Formes.AssemblyInfoInputs.cache
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\RG_Classe_Formes.AssemblyInfo.cs
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\RG_Classe_Formes.csproj.CoreCompileInputs.cache
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\RG_Classe_Formes.dll
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\refint\RG_Classe_Formes.dll
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\RG_Classe_Formes.pdb
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\RG_Classe_Formes.genruntimeconfig.cache
+C:\Users\roman\OneDrive\Documents\Progra\UAA14\Act_6\RG_Classe_Formes\RG_Classe_Formes\obj\Debug\net6.0\ref\RG_Classe_Formes.dll
