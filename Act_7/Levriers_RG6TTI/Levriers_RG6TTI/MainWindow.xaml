@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Levriers_RG6TTI"
         mc:Ignorable="d"
-        Title="grdMain" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="grdMain">
         
     </Grid>
 </Window>
